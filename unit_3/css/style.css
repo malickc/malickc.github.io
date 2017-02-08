@@ -9,23 +9,24 @@ header{
 h1{
 	color: #190673; 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-
-}
-p{
-
-}
-ul{
-
 }
 li{text-align: right;
 	margin-right: 50px;
-
 }
 img{
-	width: 100%;
+	width: 50%;
 }
 #slogan{
 	text-align: center;
+	padding: 250px;
+	color: #FFFFFF;
+	font-weight: 800;
+}
+#hero-image{
+	background-image: url(../images/blue_marlin_ibiza_view.JPG);
+	height: 600px;
+	width: 100%;
+	background-size: cover;
 }
 .city{
 	color: #190673; 
@@ -35,4 +36,19 @@ img{
 a{
 	text-decoration: none;
 	color: #190673;
+}
+ul{
+	float: right;
+	width: 250px;
+	list-style: none;
+	clear: both;
+}
+
+.clearfix:after{
+visibility: hidden;
+display: block;
+font-size: 0;
+content:" ";
+clear: both;
+height: 0;
 }
