@@ -1,10 +1,10 @@
 body{
-	background-color: #E4F7FF;
+	background-color: #FFFFFF;
 	font-family: Helvetica, sans-serif; 
 
 }
 header{
-	background-color: #FFFFFF;
+	background-color: #E4F7FF;
 }
 h1{
 	color: #190673; 
@@ -26,7 +26,11 @@ img{
 }
 #slogan{
 	text-align: center;
-
+}
+.city{
+	color: #190673; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #E4F7FF;
 }
 a{
 	text-decoration: none;
